@@ -1,0 +1,31 @@
+{
+  "name": "webpack-es6-angular",
+  "version": "1.0.0",
+  "description": "webpack加es6加angular1",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --config webpack.config.js",
+	"build": "webpack --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.18.2",
+    "url-loader": "^2.3.0",
+    "webpack": "^3.4.0",
+    "webpack-dev-server": "^2.6.1"
+  },
+  "dependencies": {
+    "angular": "^1.7.9",
+    "angular-gridster2": "^1.21.0",
+    "angular-ui-router": "^1.0.20",
+    "bootstrap": "^3.4.1"
+  }
+}
